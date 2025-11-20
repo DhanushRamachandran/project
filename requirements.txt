@@ -1,0 +1,26 @@
+mlflow
+scikit-learn
+xgboost
+lightgbm
+
+pandas
+numpy
+matplotlib
+seaborn
+
+boto3              # for AWS S3 MLflow artifact store
+sqlalchemy         # if MLflow uses a DB backend
+psycopg2-binary    # PostgreSQL backend
+pyyaml
+python-box
+
+Flask
+fastapi
+uvicorn
+gunicorn           # production server
+
+docker             # controlling Docker from Python
+dvc                # optional versioning
+prefect            # orchestration optional
+requests
+joblib
