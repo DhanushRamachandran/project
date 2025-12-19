@@ -3,5 +3,5 @@ artifact_root: artifacts
 data_ingestion:
   root_dir: artifacts/data_ingestion
   source_url: # can be a link to database or web url
-  local_data_file: # the extraction from sourceurl will be saved here
+  local_data_file: r"local_data\winequality-red.csv" # the extraction from sourceurl will be saved here
   unzip_dir: # the downloaded data in zipped format will be unzipped here
