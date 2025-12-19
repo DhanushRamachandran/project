@@ -25,7 +25,6 @@ class ConfigurationManager:
         self.configs = read_yaml(config_file_path)
         #self.params = read_yaml_file(params_file_path)
         #self.schema = read_yaml_file(schema_file_path)
-
         create_directories([self.configs.artifact_root])
 
     def get_data_ingestion_config(self)->DataIngestionConfig:

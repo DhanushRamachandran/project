@@ -230,3 +230,156 @@ dtype: object]
 [2025-12-18 19:07:51,382 - INFO - Saving data to artifacts/data_ingestion\winequality-red.csv]
 [2025-12-18 19:07:51,426 - INFO - Data saved successfully at artifacts/data_ingestion\winequality-red.csv]
 [2025-12-18 19:07:51,426 - INFO - Data saved successfully after ingestion]
+[2025-12-18 19:18:37,742 - INFO - >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-12-18 19:18:37,746 - INFO - yaml file: config.yaml is loaded successfully]
+[2025-12-18 19:18:37,747 - INFO - created directory at : artifacts]
+[2025-12-18 19:18:37,747 - INFO - Data ingestion execution started]
+[2025-12-18 19:18:37,747 - INFO - Loading data from local file: local_data/winequality-red.csv]
+[2025-12-18 19:18:37,757 - INFO - Data ingestion process completed]
+[2025-12-18 19:18:37,757 - INFO - Data Shape: (1599, 12)]
+[2025-12-18 19:18:37,757 - INFO - Data cols: Index(['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar',
+       'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density',
+       'pH', 'sulphates', 'alcohol', 'quality'],
+      dtype='object')]
+[2025-12-18 19:18:37,759 - INFO - Df Dtypes: fixed acidity           float64
+volatile acidity        float64
+citric acid             float64
+residual sugar          float64
+chlorides               float64
+free sulfur dioxide     float64
+total sulfur dioxide    float64
+density                 float64
+pH                      float64
+sulphates               float64
+alcohol                 float64
+quality                   int64
+dtype: object]
+[2025-12-18 19:18:37,778 - INFO - Data Head:    fixed acidity  volatile acidity  citric acid  residual sugar  ...    pH  sulphates  alcohol  quality
+0            7.4              0.70         0.00             1.9  ...  3.51       0.56      9.4        5
+1            7.8              0.88         0.00             2.6  ...  3.20       0.68      9.8        5
+2            7.8              0.76         0.04             2.3  ...  3.26       0.65      9.8        5
+3           11.2              0.28         0.56             1.9  ...  3.16       0.58      9.8        6
+4            7.4              0.70         0.00             1.9  ...  3.51       0.56      9.4        5
+
+[5 rows x 12 columns]]
+[2025-12-18 19:18:37,780 - INFO - Saving data to artifacts/data_ingestion\winequality-red.csv]
+[2025-12-18 19:18:37,798 - INFO - Data saved successfully at artifacts/data_ingestion\winequality-red.csv]
+[2025-12-18 19:18:37,799 - INFO - Data saved successfully after ingestion]
+[2025-12-18 19:18:37,799 - INFO - >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2025-12-19 00:30:16,469 - INFO - yaml file: src\config\config.yaml is loaded successfully]
+[2025-12-19 00:30:34,450 - INFO - yaml file: src\config\config.yaml is loaded successfully]
+[2025-12-19 00:30:34,470 - INFO - yaml file: src\config\schema.yaml is loaded successfully]
+[2025-12-19 00:34:40,226 - INFO - yaml file: src\config\config.yaml is loaded successfully]
+[2025-12-19 00:34:40,230 - INFO - yaml file: src\config\schema.yaml is loaded successfully]
+[2025-12-19 00:35:21,266 - INFO - yaml file: src\config\config.yaml is loaded successfully]
+[2025-12-19 00:35:21,271 - INFO - yaml file: src\config\schema.yaml is loaded successfully]
+[2025-12-19 00:48:45,989 - INFO - yaml file: src\config\config.yaml is loaded successfully]
+[2025-12-19 00:48:45,992 - INFO - yaml file: src\config\schema.yaml is loaded successfully]
+[2025-12-19 01:12:51,075 - INFO - yaml file: src\config\config.yaml is loaded successfully]
+[2025-12-19 01:12:51,080 - INFO - yaml file: src\config\schema.yaml is loaded successfully]
+[2025-12-19 01:12:51,083 - INFO - Initiating Data Validation]
+[2025-12-19 01:12:51,083 - INFO - Loaded schema (expected): {'schema': {'volatile acidity': {'dtype': 'float64'}, 'citric acid': {'dtype': 'float64'}, 'residual sugar': {'dtype': 'float64'}, 'chlorides': {'dtype': 'float64'}, 'free sulfur dioxide': {'dtype': 'float64'}, 'total sulfur dioxide': {'dtype': 'float64'}, 'density': {'dtype': 'float64'}, 'pH': {'dtype': 'float64'}, 'sulphates': {'dtype': 'float64'}, 'alcohol': {'dtype': 'float64'}, 'quality': {'dtype': 'int64'}}}]
+[2025-12-19 01:18:08,572 - INFO - yaml file: src\config\config.yaml is loaded successfully]
+[2025-12-19 01:18:08,577 - INFO - yaml file: src\config\schema.yaml is loaded successfully]
+[2025-12-19 01:18:08,580 - INFO - created directory at : artifacts/data_validation]
+[2025-12-19 01:18:08,581 - INFO - created directory at : artifacts/data_validation]
+[2025-12-19 01:18:08,582 - INFO - Initiating Data Validation]
+[2025-12-19 01:18:08,582 - INFO - Loaded schema (expected): {'schema': {'volatile acidity': {'dtype': 'float64'}, 'citric acid': {'dtype': 'float64'}, 'residual sugar': {'dtype': 'float64'}, 'chlorides': {'dtype': 'float64'}, 'free sulfur dioxide': {'dtype': 'float64'}, 'total sulfur dioxide': {'dtype': 'float64'}, 'density': {'dtype': 'float64'}, 'pH': {'dtype': 'float64'}, 'sulphates': {'dtype': 'float64'}, 'alcohol': {'dtype': 'float64'}, 'quality': {'dtype': 'int64'}}}]
+[2025-12-19 01:19:41,823 - INFO - yaml file: src\config\config.yaml is loaded successfully]
+[2025-12-19 01:19:41,827 - INFO - yaml file: src\config\schema.yaml is loaded successfully]
+[2025-12-19 01:19:41,829 - INFO - created directory at : artifacts/data_validation]
+[2025-12-19 01:19:41,829 - INFO - created directory at : artifacts/data_validation]
+[2025-12-19 01:19:41,832 - INFO - Initiating Data Validation]
+[2025-12-19 01:19:41,832 - INFO - Loaded schema (expected): {'schema': {'volatile acidity': {'dtype': 'float64'}, 'citric acid': {'dtype': 'float64'}, 'residual sugar': {'dtype': 'float64'}, 'chlorides': {'dtype': 'float64'}, 'free sulfur dioxide': {'dtype': 'float64'}, 'total sulfur dioxide': {'dtype': 'float64'}, 'density': {'dtype': 'float64'}, 'pH': {'dtype': 'float64'}, 'sulphates': {'dtype': 'float64'}, 'alcohol': {'dtype': 'float64'}, 'quality': {'dtype': 'int64'}}}]
+[2025-12-19 01:20:37,032 - INFO - yaml file: src\config\config.yaml is loaded successfully]
+[2025-12-19 01:20:37,036 - INFO - yaml file: src\config\schema.yaml is loaded successfully]
+[2025-12-19 01:20:37,038 - INFO - created directory at : artifacts/data_validation]
+[2025-12-19 01:20:37,038 - INFO - created directory at : artifacts/data_validation]
+[2025-12-19 01:20:37,039 - INFO - Initiating Data Validation]
+[2025-12-19 01:20:37,039 - INFO - Loaded schema (expected): {'schema': {'volatile acidity': {'dtype': 'float64'}, 'citric acid': {'dtype': 'float64'}, 'residual sugar': {'dtype': 'float64'}, 'chlorides': {'dtype': 'float64'}, 'free sulfur dioxide': {'dtype': 'float64'}, 'total sulfur dioxide': {'dtype': 'float64'}, 'density': {'dtype': 'float64'}, 'pH': {'dtype': 'float64'}, 'sulphates': {'dtype': 'float64'}, 'alcohol': {'dtype': 'float64'}, 'quality': {'dtype': 'int64'}}}]
+[2025-12-19 01:21:24,859 - INFO - yaml file: src\config\config.yaml is loaded successfully]
+[2025-12-19 01:21:24,865 - INFO - yaml file: src\config\schema.yaml is loaded successfully]
+[2025-12-19 01:21:24,867 - INFO - created directory at : artifacts/data_validation]
+[2025-12-19 01:21:24,868 - INFO - created directory at : artifacts/data_validation]
+[2025-12-19 01:21:24,868 - INFO - Initiating Data Validation]
+[2025-12-19 01:21:24,868 - INFO - Loaded schema (expected): {'schema': {'volatile acidity': {'dtype': 'float64'}, 'citric acid': {'dtype': 'float64'}, 'residual sugar': {'dtype': 'float64'}, 'chlorides': {'dtype': 'float64'}, 'free sulfur dioxide': {'dtype': 'float64'}, 'total sulfur dioxide': {'dtype': 'float64'}, 'density': {'dtype': 'float64'}, 'pH': {'dtype': 'float64'}, 'sulphates': {'dtype': 'float64'}, 'alcohol': {'dtype': 'float64'}, 'quality': {'dtype': 'int64'}}}]
+[2025-12-19 01:22:11,956 - INFO - yaml file: src\config\config.yaml is loaded successfully]
+[2025-12-19 01:22:11,959 - INFO - yaml file: src\config\schema.yaml is loaded successfully]
+[2025-12-19 01:22:11,960 - INFO - created directory at : artifacts/data_validation]
+[2025-12-19 01:22:11,961 - INFO - created directory at : artifacts/data_validation]
+[2025-12-19 01:22:11,961 - INFO - Initiating Data Validation]
+[2025-12-19 01:22:11,961 - INFO - Loaded schema (expected): {'volatile acidity': {'dtype': 'float64'}, 'citric acid': {'dtype': 'float64'}, 'residual sugar': {'dtype': 'float64'}, 'chlorides': {'dtype': 'float64'}, 'free sulfur dioxide': {'dtype': 'float64'}, 'total sulfur dioxide': {'dtype': 'float64'}, 'density': {'dtype': 'float64'}, 'pH': {'dtype': 'float64'}, 'sulphates': {'dtype': 'float64'}, 'alcohol': {'dtype': 'float64'}, 'quality': {'dtype': 'int64'}}]
+[2025-12-19 01:22:11,990 - INFO - Column 'volatile acidity' has the expected data type. Expected: float64, Actual: float64]
+[2025-12-19 01:22:11,990 - INFO - Column 'citric acid' has the expected data type. Expected: float64, Actual: float64]
+[2025-12-19 01:22:11,990 - INFO - Column 'residual sugar' has the expected data type. Expected: float64, Actual: float64]
+[2025-12-19 01:22:11,991 - INFO - Column 'chlorides' has the expected data type. Expected: float64, Actual: float64]
+[2025-12-19 01:22:11,991 - INFO - Column 'free sulfur dioxide' has the expected data type. Expected: float64, Actual: float64]
+[2025-12-19 01:22:11,991 - INFO - Column 'total sulfur dioxide' has the expected data type. Expected: float64, Actual: float64]
+[2025-12-19 01:22:11,992 - INFO - Column 'density' has the expected data type. Expected: float64, Actual: float64]
+[2025-12-19 01:22:11,992 - INFO - Column 'pH' has the expected data type. Expected: float64, Actual: float64]
+[2025-12-19 01:22:11,992 - INFO - Column 'sulphates' has the expected data type. Expected: float64, Actual: float64]
+[2025-12-19 01:22:11,993 - INFO - Column 'alcohol' has the expected data type. Expected: float64, Actual: float64]
+[2025-12-19 01:22:11,993 - INFO - Column 'quality' has the expected data type. Expected: int64, Actual: int64]
+[2025-12-19 01:22:11,993 - INFO - Data Validation Completed]
+[2025-12-19 01:24:32,926 - INFO - >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-12-19 01:24:32,929 - INFO - yaml file: src\config\config.yaml is loaded successfully]
+[2025-12-19 01:24:32,929 - INFO - created directory at : artifacts]
+[2025-12-19 01:24:32,929 - INFO - Data ingestion execution started]
+[2025-12-19 01:24:32,929 - INFO - Loading data from local file: local_data/winequality-red.csv]
+[2025-12-19 01:24:32,953 - INFO - Data ingestion process completed]
+[2025-12-19 01:24:32,953 - INFO - Data Shape: (1599, 12)]
+[2025-12-19 01:24:32,956 - INFO - Data cols: Index(['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar',
+       'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density',
+       'pH', 'sulphates', 'alcohol', 'quality'],
+      dtype='object')]
+[2025-12-19 01:24:32,958 - INFO - Df Dtypes: fixed acidity           float64
+volatile acidity        float64
+citric acid             float64
+residual sugar          float64
+chlorides               float64
+free sulfur dioxide     float64
+total sulfur dioxide    float64
+density                 float64
+pH                      float64
+sulphates               float64
+alcohol                 float64
+quality                   int64
+dtype: object]
+[2025-12-19 01:24:32,983 - INFO - Data Head:    fixed acidity  volatile acidity  citric acid  residual sugar  ...    pH  sulphates  alcohol  quality
+0            7.4              0.70         0.00             1.9  ...  3.51       0.56      9.4        5
+1            7.8              0.88         0.00             2.6  ...  3.20       0.68      9.8        5
+2            7.8              0.76         0.04             2.3  ...  3.26       0.65      9.8        5
+3           11.2              0.28         0.56             1.9  ...  3.16       0.58      9.8        6
+4            7.4              0.70         0.00             1.9  ...  3.51       0.56      9.4        5
+
+[5 rows x 12 columns]]
+[2025-12-19 01:24:32,984 - INFO - Saving data to artifacts/data_ingestion\winequality-red.csv]
+[2025-12-19 01:24:32,998 - INFO - Data saved successfully at artifacts/data_ingestion\winequality-red.csv]
+[2025-12-19 01:24:32,999 - INFO - Data saved successfully after ingestion]
+[2025-12-19 01:24:32,999 - INFO - >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2025-12-19 01:24:32,999 - INFO - >>>>>> stage Data Validation Stage started <<<<<<]
+[2025-12-19 01:24:33,001 - INFO - yaml file: src\config\config.yaml is loaded successfully]
+[2025-12-19 01:24:33,003 - INFO - yaml file: src\config\schema.yaml is loaded successfully]
+[2025-12-19 01:24:33,005 - INFO - created directory at : artifacts/data_validation]
+[2025-12-19 01:24:33,005 - INFO - created directory at : artifacts/data_validation]
+[2025-12-19 01:24:33,005 - INFO - Initiating Data Validation]
+[2025-12-19 01:24:33,005 - INFO - Loaded schema (expected): {'volatile acidity': {'dtype': 'float64'}, 'citric acid': {'dtype': 'float64'}, 'residual sugar': {'dtype': 'float64'}, 'chlorides': {'dtype': 'float64'}, 'free sulfur dioxide': {'dtype': 'float64'}, 'total sulfur dioxide': {'dtype': 'float64'}, 'density': {'dtype': 'float64'}, 'pH': {'dtype': 'float64'}, 'sulphates': {'dtype': 'float64'}, 'alcohol': {'dtype': 'float64'}, 'quality': {'dtype': 'int64'}}]
+[2025-12-19 01:24:33,029 - INFO - Column 'volatile acidity' has the expected data type. Expected: float64, Actual: float64]
+[2025-12-19 01:24:33,030 - INFO - Column 'citric acid' has the expected data type. Expected: float64, Actual: float64]
+[2025-12-19 01:24:33,030 - INFO - Column 'residual sugar' has the expected data type. Expected: float64, Actual: float64]
+[2025-12-19 01:24:33,031 - INFO - Column 'chlorides' has the expected data type. Expected: float64, Actual: float64]
+[2025-12-19 01:24:33,031 - INFO - Column 'free sulfur dioxide' has the expected data type. Expected: float64, Actual: float64]
+[2025-12-19 01:24:33,031 - INFO - Column 'total sulfur dioxide' has the expected data type. Expected: float64, Actual: float64]
+[2025-12-19 01:24:33,032 - INFO - Column 'density' has the expected data type. Expected: float64, Actual: float64]
+[2025-12-19 01:24:33,032 - INFO - Column 'pH' has the expected data type. Expected: float64, Actual: float64]
+[2025-12-19 01:24:33,032 - INFO - Column 'sulphates' has the expected data type. Expected: float64, Actual: float64]
+[2025-12-19 01:24:33,032 - INFO - Column 'alcohol' has the expected data type. Expected: float64, Actual: float64]
+[2025-12-19 01:24:33,033 - INFO - Column 'quality' has the expected data type. Expected: int64, Actual: int64]
+[2025-12-19 01:24:33,033 - INFO - Data Validation Completed]
+[2025-12-19 01:24:33,033 - INFO - >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]

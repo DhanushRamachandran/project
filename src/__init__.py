@@ -10,5 +10,5 @@ logging.basicConfig(
     format="[%(asctime)s - %(levelname)s - %(message)s]",
     handlers=[logging.FileHandler(log_file_path)]
     )
-
 logger = logging.getLogger("datascience_logger")
+

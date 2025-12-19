@@ -44,7 +44,7 @@ for filepath in list_of_files:
             # creating empty file
             pass
         logging.info(f"The dir exists and creating empty file {filepath}")
-
+    
     else:
         logging.info(f"The file already exists: {filepath}")
     

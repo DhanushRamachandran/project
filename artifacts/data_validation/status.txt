@@ -1,0 +1,11 @@
+Column 'volatile acidity' has the expected data type. Expected: float64, Actual: float64
+Column 'citric acid' has the expected data type. Expected: float64, Actual: float64
+Column 'residual sugar' has the expected data type. Expected: float64, Actual: float64
+Column 'chlorides' has the expected data type. Expected: float64, Actual: float64
+Column 'free sulfur dioxide' has the expected data type. Expected: float64, Actual: float64
+Column 'total sulfur dioxide' has the expected data type. Expected: float64, Actual: float64
+Column 'density' has the expected data type. Expected: float64, Actual: float64
+Column 'pH' has the expected data type. Expected: float64, Actual: float64
+Column 'sulphates' has the expected data type. Expected: float64, Actual: float64
+Column 'alcohol' has the expected data type. Expected: float64, Actual: float64
+Column 'quality' has the expected data type. Expected: int64, Actual: int64

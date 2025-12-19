@@ -1,0 +1,23 @@
+schema:
+  volatile acidity:
+    dtype: float64
+  citric acid:
+    dtype: float64
+  residual sugar:
+    dtype: float64
+  chlorides:
+    dtype: float64
+  free sulfur dioxide:
+    dtype: float64
+  total sulfur dioxide:
+    dtype: float64
+  density:
+    dtype: float64
+  pH:
+    dtype: float64
+  sulphates:
+    dtype: float64
+  alcohol:
+    dtype: float64
+  quality:
+    dtype: int64
