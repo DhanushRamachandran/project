@@ -1,11 +1,14 @@
 from src import logger
 from src.config.configuration import ConfigurationManager,DataIngestionConfig
+from src.config.transformation_configuration import DataTransformationConfig,TransformationConfigurationManager
 from src.components.data_ingestion import DataIngestionConfig,DataIngestionExecutor,DataIngestionLoader
 from src.constants import *
 from src.config.validation_configuration import *
 from src.entity.config_entity import DataValidationConfig
 from src.utils.common import read_yaml,create_directories
 from src.components.data_validation import DataValidator,ValidationConfigManager
+from src.components.data_transformation import DataTransformer
+
 STAGE_NAME = "Data Ingestion Stage"
 
 try:
@@ -30,3 +33,21 @@ try:
 except Exception as e:
     logger.exception(f"error in stage {STAGE_NAME}: {e}")
     raise e
+
+
+STAGE_NAME = "Data transformation Stage"
+
+try:
+    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+    transformation_manager = TransformationConfigurationManager()
+    transformation_configs = transformation_manager.get_transformation_config()
+    transformer = DataTransformer(transformation_configs.validated_data_path)
+    transformed_data = transformer.transform()
+    (X_train,X_test,y_train,y_test) = tuple(transformer)
+    transformer.save_transformed_data(X_train,y_train,X_test,y_test)
+    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+except Exception as e:
+    logger.exception(f"error in stage {STAGE_NAME}: {e}")
+    raise e
+
+
